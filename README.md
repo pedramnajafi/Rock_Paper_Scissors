@@ -19,14 +19,12 @@ Rock paper scissors is a hand game originating in China, usually played between 
               elif player_move =='r' or player_move =='p' or player_move =='s':
                   break
               print('Type one of the r,p,s or q.')
-
           if player_move == 'r':
               print('ROCK vs. ...')
           elif player_move == 'p':
               print('PAPER vs. ...')
           elif player_move == 's':
               print('SCISSORS vs. ...')
-
           random_number = random.randint(1,3)
           if random_number == 1:
               computer_move = 'r'
@@ -37,7 +35,6 @@ Rock paper scissors is a hand game originating in China, usually played between 
           elif random_number == 3:
               computer_move = 's'
               print('SCISSORS')
-
           if player_move == computer_move:
               print('Ties')
               ties = ties + 1
