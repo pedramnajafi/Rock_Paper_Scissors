@@ -4,7 +4,6 @@ Rock paper scissors is a hand game originating in China, usually played between 
 
       import random
       import sys
-
       wins = 0
       losses = 0
       ties = 0
