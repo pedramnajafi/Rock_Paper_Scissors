@@ -16,7 +16,6 @@ while True:
         elif player_move =='r' or player_move =='p' or player_move =='s':
             break
         print('Type one of the r,p,s or q.')
-
     if player_move == 'r':
         print('ROCK vs. ...')
     elif player_move == 'p':
