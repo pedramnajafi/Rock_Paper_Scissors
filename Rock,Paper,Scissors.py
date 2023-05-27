@@ -23,7 +23,6 @@ while True:
         print('PAPER vs. ...')
     elif player_move == 's':
         print('SCISSORS vs. ...')
-
     random_number = random.randint(1,3)
     if random_number == 1:
         computer_move = 'r'
